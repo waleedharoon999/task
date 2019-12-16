@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>email-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#00A3FF" offset="0%"></stop>
+            <stop stop-color="#006AFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="profile" transform="translate(-41.000000, -546.000000)">
+            <g id="Group-8" transform="translate(1.000000, 461.000000)">
+                <g id="Group-7" transform="translate(40.000000, 25.000000)">
+                    <g id="sent-mail" transform="translate(0.000000, 60.000000)">
+                        <g id="email-icon">
+                            <circle id="Oval" fill="url(#linearGradient-1)" cx="20" cy="20" r="20"></circle>
+                            <path d="M28.9134461,12.064132 C28.837772,11.9966349 28.73008,11.9809752 28.6388036,12.0240265 L12.1470434,19.8162666 C12.0582573,19.8582326 12.0010824,19.9483148 12,20.0478549 C11.9989479,20.147395 12.0542423,20.2387176 12.1421645,20.2825958 L16.8093072,22.6118126 C16.8948916,22.6545539 16.9969423,22.6448893 17.0733787,22.5867984 L21.6111284,19.1378334 L18.0488066,22.8641255 C17.9979845,22.9173066 17.9720653,22.9901269 17.9776557,23.0640325 L18.3323429,27.7613829 C18.3402203,27.865471 18.4088301,27.9544679 18.5063576,27.9870794 C18.5324293,27.9957621 18.5592126,28 18.5856909,28 C18.6583156,28 18.7289583,27.9683188 18.7781032,27.9104346 L21.2552723,24.9913163 L24.3175559,26.479249 C24.3840311,26.5115504 24.4609757,26.5128942 24.5285183,26.4830218 C24.5960608,26.4530978 24.6474927,26.3949036 24.6695495,26.3234786 L28.988307,12.3358257 C29.0184953,12.2381462 28.9890693,12.131629 28.9134461,12.064132 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

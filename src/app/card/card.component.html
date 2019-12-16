@@ -1,0 +1,21 @@
+<div class="card">
+    <div>
+        <img src={{profile.picture.large}} alt="John" style="width:50%; height: 150px; border-radius:50%">
+    </div>
+    <h3>{{profile.name.first}} {{profile.name.last}}</h3>
+    <div>
+        <button *ngIf="profile.gender == 'male'"
+            style="background-color: #00a3ff; border-radius: 20px; max-width: 120px;"><img src="assets/male.svg" />
+            {{profile.gender}}</button>
+        <button *ngIf="profile.gender == 'female'"
+            style="background-color: #00a3ff; border-radius: 20px; max-width: 120px;"><img src="assets/female.svg" />
+            {{profile.gender}}</button>
+    </div>
+    <div style="margin-top: 20%;">
+        <p style="background-color: white; font-size: small;  font-weight: bold;"><img src="assets/phone.svg" />  {{profile.phone}}</p>
+        <p style="background-color: white;margin-top: -5%; font-size: small; font-weight: bold;"><img src="assets/email.svg" />  {{profile.email}}</p>
+    </div>
+    <div>
+        <button style="background-color: #00a3ff; border-radius: 20px; width:200px;" (click)="navigate()">View More</button>
+    </div>
+</div>

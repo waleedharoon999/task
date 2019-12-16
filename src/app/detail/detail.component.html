@@ -1,0 +1,18 @@
+<div class="flip-card">
+    <div class="flip-card-inner">
+        <div class="flip-card-front">
+            <img src={{profile.picture.large}} />
+            <h1>{{profile.name.first}} {{profile.name.last}}</h1>
+            <p>{{profile.gender}}</p>
+        </div>
+        <div class="flip-card-back">
+            <h1>Name: {{profile.name.first}} {{profile.name.last}}</h1>
+            <p>Gender: {{profile.gender}}</p>
+            <p>Phone: {{profile.phone}}</p>
+            <p>Date of Birth: {{profile.dob.date}}</p>
+            <p>Age: {{profile.dob.age}}</p>
+            <p>Username: {{profile.login.username}}</p>
+            <p>Location: {{profile.location.street.name}}, {{profile.location.city}}, {{profile.location.country}}</p>
+        </div>
+    </div>
+</div>
